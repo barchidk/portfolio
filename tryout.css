@@ -1,0 +1,64 @@
+html, body{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  width: 100%;
+}
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 20px 0px 0px 40px;
+}
+li{
+  display: inline;
+  padding: 0px 16px 0px 0px;
+  color: black;
+  font-family: Lora;
+  font-size: 18px;
+  font-weight: bold;
+}
+h1{
+  color: black;
+  font-family: Arial;
+  font-size: 68px;
+  opacity: 0.80;
+}
+h2{
+  color: #252426;
+  font-family: Arial;
+  font-weight: 300;
+  margin: 0;
+  padding-top: 80px;
+}
+p{
+  color: #252426;
+  font-family: Arial;
+  margin: 0;
+  padding-top: 40px;
+}
+.section-title{
+  text-align: center;
+}
+.section-text{
+  text-align: center;
+}
+#nav-menu a{
+  text-decoration: none; 
+}
+#home{
+  height: 750px;
+  background-size: cover;
+  background-image: url(images/homepage/leaves.png);
+}
+#page-title{
+  text-align: center;
+  padding-top: 240px;
+}
+#about-me{
+  background-color: #D6D8DF;
+  height: 800px;
+}
+#talent{
+  background-color: #9E9AA1;
+  height: 800px;
+}
