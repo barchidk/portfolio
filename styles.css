@@ -26,6 +26,7 @@
     body {
         margin: 0 auto;
         font-family: 'Lora', serif;
+        background-color: floralwhite;
     }
 
     .box {
@@ -38,7 +39,6 @@
 
     .h1 {
         font-size: 38px;
-        font-size-adjust: auto;
         padding-top: 300px;
     }
 
@@ -54,7 +54,6 @@
 
     .main {
         justify-items: center;
-        background-color: floralwhite;
 
     }
 
@@ -70,28 +69,4 @@
     }
 
 
-    /* animation ----------------------------------- */
-
-    .h1 {
-        animation-name: fadeInDown;
-        animation-duration: 3s;
-    }
-
-    @keyframes fadeInDown {
-        from {
-            opacity: 0;
-            -webkit-transform: translate3d(0, -100%, 0);
-            transform: translate3d(0, -100%, 0);
-        }
-
-        to {
-            opacity: 1;
-            -webkit-transform: translate3d(0, 0, 0);
-            transform: translate3d(0, 0, 0);
-        }
-    }
-
-    .fadeInDown {
-        -webkit-animation-name: fadeInDown;
-        animation-name: fadeInDown;
-    }
+    
